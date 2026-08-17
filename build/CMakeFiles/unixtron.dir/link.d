@@ -3,6 +3,18 @@ unixtron: \
   /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/crti.o \
   /usr/lib/gcc/x86_64-pc-linux-gnu/16/crtbeginS.o \
   CMakeFiles/unixtron.dir/src/main.cpp.o \
+  CMakeFiles/unixtron.dir/src/cli/command_registry.cpp.o \
+  CMakeFiles/unixtron.dir/src/commands/build_command.cpp.o \
+  CMakeFiles/unixtron.dir/src/commands/flasher_command.cpp.o \
+  CMakeFiles/unixtron.dir/src/commands/help_command.cpp.o \
+  CMakeFiles/unixtron.dir/src/commands/init_command.cpp.o \
+  CMakeFiles/unixtron.dir/src/commands/run_command.cpp.o \
+  CMakeFiles/unixtron.dir/src/commands/version_command.cpp.o \
+  CMakeFiles/unixtron.dir/src/core/build/Builder.cpp.o \
+  CMakeFiles/unixtron.dir/src/core/config/config.cpp.o \
+  CMakeFiles/unixtron.dir/src/core/process/Process.cpp.o \
+  CMakeFiles/unixtron.dir/src/core/project/ProjectGenerator.cpp.o \
+  CMakeFiles/unixtron.dir/src/core/flash/flash.cpp.o \
   /usr/lib/gcc/x86_64-pc-linux-gnu/16/libstdc++.a \
   /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/libm.so \
   /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/libm.so \
@@ -41,6 +53,30 @@ unixtron: \
 /usr/lib/gcc/x86_64-pc-linux-gnu/16/crtbeginS.o:
 
 CMakeFiles/unixtron.dir/src/main.cpp.o:
+
+CMakeFiles/unixtron.dir/src/cli/command_registry.cpp.o:
+
+CMakeFiles/unixtron.dir/src/commands/build_command.cpp.o:
+
+CMakeFiles/unixtron.dir/src/commands/flasher_command.cpp.o:
+
+CMakeFiles/unixtron.dir/src/commands/help_command.cpp.o:
+
+CMakeFiles/unixtron.dir/src/commands/init_command.cpp.o:
+
+CMakeFiles/unixtron.dir/src/commands/run_command.cpp.o:
+
+CMakeFiles/unixtron.dir/src/commands/version_command.cpp.o:
+
+CMakeFiles/unixtron.dir/src/core/build/Builder.cpp.o:
+
+CMakeFiles/unixtron.dir/src/core/config/config.cpp.o:
+
+CMakeFiles/unixtron.dir/src/core/process/Process.cpp.o:
+
+CMakeFiles/unixtron.dir/src/core/project/ProjectGenerator.cpp.o:
+
+CMakeFiles/unixtron.dir/src/core/flash/flash.cpp.o:
 
 /usr/lib/gcc/x86_64-pc-linux-gnu/16/libstdc++.a:
 

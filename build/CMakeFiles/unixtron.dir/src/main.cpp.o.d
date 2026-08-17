@@ -1,5 +1,5 @@
 CMakeFiles/unixtron.dir/src/main.cpp.o: \
- /home/nandha/Projects/personalproj/unified_embedded_platform/unified_embedded_platform/src/main.cpp \
+ /home/nandha/Projects/personalproj/unified_embedded_platform/unixtron/src/main.cpp \
  /usr/include/stdc-predef.h /usr/include/c++/16/iostream \
  /usr/include/c++/16/bits/requires_hosted.h \
  /usr/include/c++/16/x86_64-pc-linux-gnu/bits/c++config.h \
@@ -142,7 +142,7 @@ CMakeFiles/unixtron.dir/src/main.cpp.o: \
  /usr/include/c++/16/bits/ostream_print.h \
  /usr/include/c++/16/bits/ostream.tcc /usr/include/c++/16/istream \
  /usr/include/c++/16/bits/istream.tcc \
- /home/nandha/Projects/personalproj/unified_embedded_platform/unified_embedded_platform/src/cli/command_registry.hpp \
+ /home/nandha/Projects/personalproj/unified_embedded_platform/unixtron/src/cli/command_registry.hpp \
  /usr/include/c++/16/functional /usr/include/c++/16/bits/refwrap.h \
  /usr/include/c++/16/bits/std_function.h \
  /usr/include/c++/16/unordered_map \
@@ -173,7 +173,9 @@ CMakeFiles/unixtron.dir/src/main.cpp.o: \
  /usr/include/c++/16/bits/ranges_algobase.h \
  /usr/include/c++/16/pstl/glue_memory_defs.h \
  /usr/include/c++/16/pstl/execution_defs.h \
- /home/nandha/Projects/personalproj/unified_embedded_platform/unified_embedded_platform/src/cli/command.hpp \
- /home/nandha/Projects/personalproj/unified_embedded_platform/unified_embedded_platform/src/commands/help_command.hpp \
- /home/nandha/Projects/personalproj/unified_embedded_platform/unified_embedded_platform/src/commands/init_command.hpp \
- /home/nandha/Projects/personalproj/unified_embedded_platform/unified_embedded_platform/src/commands/version_command.hpp
+ /home/nandha/Projects/personalproj/unified_embedded_platform/unixtron/src/cli/command.hpp \
+ /home/nandha/Projects/personalproj/unified_embedded_platform/unixtron/src/commands/help_command.hpp \
+ /home/nandha/Projects/personalproj/unified_embedded_platform/unixtron/src/commands/init_command.hpp \
+ /home/nandha/Projects/personalproj/unified_embedded_platform/unixtron/src/commands/version_command.hpp \
+ /home/nandha/Projects/personalproj/unified_embedded_platform/unixtron/src/commands/build_command.hpp \
+ /home/nandha/Projects/personalproj/unified_embedded_platform/unixtron/src/commands/flasher_command.hpp

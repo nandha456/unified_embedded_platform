@@ -1,7 +1,7 @@
-#pragma once  // complier dont process this file more than once
+#pragma once
 
 class Command {
-    public:
-        virtual ~Command() = default;
-        virtual void execute() = 0;
+public:
+    virtual ~Command() = default;
+    virtual int execute() = 0;
 };

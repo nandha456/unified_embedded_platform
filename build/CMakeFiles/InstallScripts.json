@@ -1,7 +1,7 @@
 {
 	"InstallScripts" : 
 	[
-		"/home/nandha/Projects/personalproj/unified_embedded_platform/unified_embedded_platform/build/cmake_install.cmake"
+		"/home/nandha/Projects/personalproj/unified_embedded_platform/unixtron/build/cmake_install.cmake"
 	],
 	"Parallel" : false
 }

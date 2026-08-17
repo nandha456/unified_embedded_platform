@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = 
+CXX_INCLUDES = -I/home/nandha/Projects/personalproj/unified_embedded_platform/unixtron/src
 
 CXX_FLAGS = -std=gnu++20
 

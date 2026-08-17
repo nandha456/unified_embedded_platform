@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/nandha/Projects/personalproj/unified_embedded_platform/unified_embedded_platform
+CMAKE_SOURCE_DIR = /home/nandha/Projects/personalproj/unified_embedded_platform/unixtron
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/nandha/Projects/personalproj/unified_embedded_platform/unified_embedded_platform/build
+CMAKE_BINARY_DIR = /home/nandha/Projects/personalproj/unified_embedded_platform/unixtron/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/unixtron.dir/depend.make
@@ -73,31 +73,223 @@ CMakeFiles/unixtron.dir/codegen:
 .PHONY : CMakeFiles/unixtron.dir/codegen
 
 CMakeFiles/unixtron.dir/src/main.cpp.o: CMakeFiles/unixtron.dir/flags.make
-CMakeFiles/unixtron.dir/src/main.cpp.o: /home/nandha/Projects/personalproj/unified_embedded_platform/unified_embedded_platform/src/main.cpp
+CMakeFiles/unixtron.dir/src/main.cpp.o: /home/nandha/Projects/personalproj/unified_embedded_platform/unixtron/src/main.cpp
 CMakeFiles/unixtron.dir/src/main.cpp.o: CMakeFiles/unixtron.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/nandha/Projects/personalproj/unified_embedded_platform/unified_embedded_platform/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/unixtron.dir/src/main.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/unixtron.dir/src/main.cpp.o -MF CMakeFiles/unixtron.dir/src/main.cpp.o.d -o CMakeFiles/unixtron.dir/src/main.cpp.o -c /home/nandha/Projects/personalproj/unified_embedded_platform/unified_embedded_platform/src/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/nandha/Projects/personalproj/unified_embedded_platform/unixtron/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/unixtron.dir/src/main.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/unixtron.dir/src/main.cpp.o -MF CMakeFiles/unixtron.dir/src/main.cpp.o.d -o CMakeFiles/unixtron.dir/src/main.cpp.o -c /home/nandha/Projects/personalproj/unified_embedded_platform/unixtron/src/main.cpp
 
 CMakeFiles/unixtron.dir/src/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/unixtron.dir/src/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nandha/Projects/personalproj/unified_embedded_platform/unified_embedded_platform/src/main.cpp > CMakeFiles/unixtron.dir/src/main.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nandha/Projects/personalproj/unified_embedded_platform/unixtron/src/main.cpp > CMakeFiles/unixtron.dir/src/main.cpp.i
 
 CMakeFiles/unixtron.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/unixtron.dir/src/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nandha/Projects/personalproj/unified_embedded_platform/unified_embedded_platform/src/main.cpp -o CMakeFiles/unixtron.dir/src/main.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nandha/Projects/personalproj/unified_embedded_platform/unixtron/src/main.cpp -o CMakeFiles/unixtron.dir/src/main.cpp.s
+
+CMakeFiles/unixtron.dir/src/cli/command_registry.cpp.o: CMakeFiles/unixtron.dir/flags.make
+CMakeFiles/unixtron.dir/src/cli/command_registry.cpp.o: /home/nandha/Projects/personalproj/unified_embedded_platform/unixtron/src/cli/command_registry.cpp
+CMakeFiles/unixtron.dir/src/cli/command_registry.cpp.o: CMakeFiles/unixtron.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/nandha/Projects/personalproj/unified_embedded_platform/unixtron/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/unixtron.dir/src/cli/command_registry.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/unixtron.dir/src/cli/command_registry.cpp.o -MF CMakeFiles/unixtron.dir/src/cli/command_registry.cpp.o.d -o CMakeFiles/unixtron.dir/src/cli/command_registry.cpp.o -c /home/nandha/Projects/personalproj/unified_embedded_platform/unixtron/src/cli/command_registry.cpp
+
+CMakeFiles/unixtron.dir/src/cli/command_registry.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/unixtron.dir/src/cli/command_registry.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nandha/Projects/personalproj/unified_embedded_platform/unixtron/src/cli/command_registry.cpp > CMakeFiles/unixtron.dir/src/cli/command_registry.cpp.i
+
+CMakeFiles/unixtron.dir/src/cli/command_registry.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/unixtron.dir/src/cli/command_registry.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nandha/Projects/personalproj/unified_embedded_platform/unixtron/src/cli/command_registry.cpp -o CMakeFiles/unixtron.dir/src/cli/command_registry.cpp.s
+
+CMakeFiles/unixtron.dir/src/commands/build_command.cpp.o: CMakeFiles/unixtron.dir/flags.make
+CMakeFiles/unixtron.dir/src/commands/build_command.cpp.o: /home/nandha/Projects/personalproj/unified_embedded_platform/unixtron/src/commands/build_command.cpp
+CMakeFiles/unixtron.dir/src/commands/build_command.cpp.o: CMakeFiles/unixtron.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/nandha/Projects/personalproj/unified_embedded_platform/unixtron/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/unixtron.dir/src/commands/build_command.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/unixtron.dir/src/commands/build_command.cpp.o -MF CMakeFiles/unixtron.dir/src/commands/build_command.cpp.o.d -o CMakeFiles/unixtron.dir/src/commands/build_command.cpp.o -c /home/nandha/Projects/personalproj/unified_embedded_platform/unixtron/src/commands/build_command.cpp
+
+CMakeFiles/unixtron.dir/src/commands/build_command.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/unixtron.dir/src/commands/build_command.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nandha/Projects/personalproj/unified_embedded_platform/unixtron/src/commands/build_command.cpp > CMakeFiles/unixtron.dir/src/commands/build_command.cpp.i
+
+CMakeFiles/unixtron.dir/src/commands/build_command.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/unixtron.dir/src/commands/build_command.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nandha/Projects/personalproj/unified_embedded_platform/unixtron/src/commands/build_command.cpp -o CMakeFiles/unixtron.dir/src/commands/build_command.cpp.s
+
+CMakeFiles/unixtron.dir/src/commands/flasher_command.cpp.o: CMakeFiles/unixtron.dir/flags.make
+CMakeFiles/unixtron.dir/src/commands/flasher_command.cpp.o: /home/nandha/Projects/personalproj/unified_embedded_platform/unixtron/src/commands/flasher_command.cpp
+CMakeFiles/unixtron.dir/src/commands/flasher_command.cpp.o: CMakeFiles/unixtron.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/nandha/Projects/personalproj/unified_embedded_platform/unixtron/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/unixtron.dir/src/commands/flasher_command.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/unixtron.dir/src/commands/flasher_command.cpp.o -MF CMakeFiles/unixtron.dir/src/commands/flasher_command.cpp.o.d -o CMakeFiles/unixtron.dir/src/commands/flasher_command.cpp.o -c /home/nandha/Projects/personalproj/unified_embedded_platform/unixtron/src/commands/flasher_command.cpp
+
+CMakeFiles/unixtron.dir/src/commands/flasher_command.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/unixtron.dir/src/commands/flasher_command.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nandha/Projects/personalproj/unified_embedded_platform/unixtron/src/commands/flasher_command.cpp > CMakeFiles/unixtron.dir/src/commands/flasher_command.cpp.i
+
+CMakeFiles/unixtron.dir/src/commands/flasher_command.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/unixtron.dir/src/commands/flasher_command.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nandha/Projects/personalproj/unified_embedded_platform/unixtron/src/commands/flasher_command.cpp -o CMakeFiles/unixtron.dir/src/commands/flasher_command.cpp.s
+
+CMakeFiles/unixtron.dir/src/commands/help_command.cpp.o: CMakeFiles/unixtron.dir/flags.make
+CMakeFiles/unixtron.dir/src/commands/help_command.cpp.o: /home/nandha/Projects/personalproj/unified_embedded_platform/unixtron/src/commands/help_command.cpp
+CMakeFiles/unixtron.dir/src/commands/help_command.cpp.o: CMakeFiles/unixtron.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/nandha/Projects/personalproj/unified_embedded_platform/unixtron/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/unixtron.dir/src/commands/help_command.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/unixtron.dir/src/commands/help_command.cpp.o -MF CMakeFiles/unixtron.dir/src/commands/help_command.cpp.o.d -o CMakeFiles/unixtron.dir/src/commands/help_command.cpp.o -c /home/nandha/Projects/personalproj/unified_embedded_platform/unixtron/src/commands/help_command.cpp
+
+CMakeFiles/unixtron.dir/src/commands/help_command.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/unixtron.dir/src/commands/help_command.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nandha/Projects/personalproj/unified_embedded_platform/unixtron/src/commands/help_command.cpp > CMakeFiles/unixtron.dir/src/commands/help_command.cpp.i
+
+CMakeFiles/unixtron.dir/src/commands/help_command.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/unixtron.dir/src/commands/help_command.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nandha/Projects/personalproj/unified_embedded_platform/unixtron/src/commands/help_command.cpp -o CMakeFiles/unixtron.dir/src/commands/help_command.cpp.s
+
+CMakeFiles/unixtron.dir/src/commands/init_command.cpp.o: CMakeFiles/unixtron.dir/flags.make
+CMakeFiles/unixtron.dir/src/commands/init_command.cpp.o: /home/nandha/Projects/personalproj/unified_embedded_platform/unixtron/src/commands/init_command.cpp
+CMakeFiles/unixtron.dir/src/commands/init_command.cpp.o: CMakeFiles/unixtron.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/nandha/Projects/personalproj/unified_embedded_platform/unixtron/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/unixtron.dir/src/commands/init_command.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/unixtron.dir/src/commands/init_command.cpp.o -MF CMakeFiles/unixtron.dir/src/commands/init_command.cpp.o.d -o CMakeFiles/unixtron.dir/src/commands/init_command.cpp.o -c /home/nandha/Projects/personalproj/unified_embedded_platform/unixtron/src/commands/init_command.cpp
+
+CMakeFiles/unixtron.dir/src/commands/init_command.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/unixtron.dir/src/commands/init_command.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nandha/Projects/personalproj/unified_embedded_platform/unixtron/src/commands/init_command.cpp > CMakeFiles/unixtron.dir/src/commands/init_command.cpp.i
+
+CMakeFiles/unixtron.dir/src/commands/init_command.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/unixtron.dir/src/commands/init_command.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nandha/Projects/personalproj/unified_embedded_platform/unixtron/src/commands/init_command.cpp -o CMakeFiles/unixtron.dir/src/commands/init_command.cpp.s
+
+CMakeFiles/unixtron.dir/src/commands/run_command.cpp.o: CMakeFiles/unixtron.dir/flags.make
+CMakeFiles/unixtron.dir/src/commands/run_command.cpp.o: /home/nandha/Projects/personalproj/unified_embedded_platform/unixtron/src/commands/run_command.cpp
+CMakeFiles/unixtron.dir/src/commands/run_command.cpp.o: CMakeFiles/unixtron.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/nandha/Projects/personalproj/unified_embedded_platform/unixtron/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/unixtron.dir/src/commands/run_command.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/unixtron.dir/src/commands/run_command.cpp.o -MF CMakeFiles/unixtron.dir/src/commands/run_command.cpp.o.d -o CMakeFiles/unixtron.dir/src/commands/run_command.cpp.o -c /home/nandha/Projects/personalproj/unified_embedded_platform/unixtron/src/commands/run_command.cpp
+
+CMakeFiles/unixtron.dir/src/commands/run_command.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/unixtron.dir/src/commands/run_command.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nandha/Projects/personalproj/unified_embedded_platform/unixtron/src/commands/run_command.cpp > CMakeFiles/unixtron.dir/src/commands/run_command.cpp.i
+
+CMakeFiles/unixtron.dir/src/commands/run_command.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/unixtron.dir/src/commands/run_command.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nandha/Projects/personalproj/unified_embedded_platform/unixtron/src/commands/run_command.cpp -o CMakeFiles/unixtron.dir/src/commands/run_command.cpp.s
+
+CMakeFiles/unixtron.dir/src/commands/version_command.cpp.o: CMakeFiles/unixtron.dir/flags.make
+CMakeFiles/unixtron.dir/src/commands/version_command.cpp.o: /home/nandha/Projects/personalproj/unified_embedded_platform/unixtron/src/commands/version_command.cpp
+CMakeFiles/unixtron.dir/src/commands/version_command.cpp.o: CMakeFiles/unixtron.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/nandha/Projects/personalproj/unified_embedded_platform/unixtron/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/unixtron.dir/src/commands/version_command.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/unixtron.dir/src/commands/version_command.cpp.o -MF CMakeFiles/unixtron.dir/src/commands/version_command.cpp.o.d -o CMakeFiles/unixtron.dir/src/commands/version_command.cpp.o -c /home/nandha/Projects/personalproj/unified_embedded_platform/unixtron/src/commands/version_command.cpp
+
+CMakeFiles/unixtron.dir/src/commands/version_command.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/unixtron.dir/src/commands/version_command.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nandha/Projects/personalproj/unified_embedded_platform/unixtron/src/commands/version_command.cpp > CMakeFiles/unixtron.dir/src/commands/version_command.cpp.i
+
+CMakeFiles/unixtron.dir/src/commands/version_command.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/unixtron.dir/src/commands/version_command.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nandha/Projects/personalproj/unified_embedded_platform/unixtron/src/commands/version_command.cpp -o CMakeFiles/unixtron.dir/src/commands/version_command.cpp.s
+
+CMakeFiles/unixtron.dir/src/core/build/Builder.cpp.o: CMakeFiles/unixtron.dir/flags.make
+CMakeFiles/unixtron.dir/src/core/build/Builder.cpp.o: /home/nandha/Projects/personalproj/unified_embedded_platform/unixtron/src/core/build/Builder.cpp
+CMakeFiles/unixtron.dir/src/core/build/Builder.cpp.o: CMakeFiles/unixtron.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/nandha/Projects/personalproj/unified_embedded_platform/unixtron/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/unixtron.dir/src/core/build/Builder.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/unixtron.dir/src/core/build/Builder.cpp.o -MF CMakeFiles/unixtron.dir/src/core/build/Builder.cpp.o.d -o CMakeFiles/unixtron.dir/src/core/build/Builder.cpp.o -c /home/nandha/Projects/personalproj/unified_embedded_platform/unixtron/src/core/build/Builder.cpp
+
+CMakeFiles/unixtron.dir/src/core/build/Builder.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/unixtron.dir/src/core/build/Builder.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nandha/Projects/personalproj/unified_embedded_platform/unixtron/src/core/build/Builder.cpp > CMakeFiles/unixtron.dir/src/core/build/Builder.cpp.i
+
+CMakeFiles/unixtron.dir/src/core/build/Builder.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/unixtron.dir/src/core/build/Builder.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nandha/Projects/personalproj/unified_embedded_platform/unixtron/src/core/build/Builder.cpp -o CMakeFiles/unixtron.dir/src/core/build/Builder.cpp.s
+
+CMakeFiles/unixtron.dir/src/core/config/config.cpp.o: CMakeFiles/unixtron.dir/flags.make
+CMakeFiles/unixtron.dir/src/core/config/config.cpp.o: /home/nandha/Projects/personalproj/unified_embedded_platform/unixtron/src/core/config/config.cpp
+CMakeFiles/unixtron.dir/src/core/config/config.cpp.o: CMakeFiles/unixtron.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/nandha/Projects/personalproj/unified_embedded_platform/unixtron/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/unixtron.dir/src/core/config/config.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/unixtron.dir/src/core/config/config.cpp.o -MF CMakeFiles/unixtron.dir/src/core/config/config.cpp.o.d -o CMakeFiles/unixtron.dir/src/core/config/config.cpp.o -c /home/nandha/Projects/personalproj/unified_embedded_platform/unixtron/src/core/config/config.cpp
+
+CMakeFiles/unixtron.dir/src/core/config/config.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/unixtron.dir/src/core/config/config.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nandha/Projects/personalproj/unified_embedded_platform/unixtron/src/core/config/config.cpp > CMakeFiles/unixtron.dir/src/core/config/config.cpp.i
+
+CMakeFiles/unixtron.dir/src/core/config/config.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/unixtron.dir/src/core/config/config.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nandha/Projects/personalproj/unified_embedded_platform/unixtron/src/core/config/config.cpp -o CMakeFiles/unixtron.dir/src/core/config/config.cpp.s
+
+CMakeFiles/unixtron.dir/src/core/process/Process.cpp.o: CMakeFiles/unixtron.dir/flags.make
+CMakeFiles/unixtron.dir/src/core/process/Process.cpp.o: /home/nandha/Projects/personalproj/unified_embedded_platform/unixtron/src/core/process/Process.cpp
+CMakeFiles/unixtron.dir/src/core/process/Process.cpp.o: CMakeFiles/unixtron.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/nandha/Projects/personalproj/unified_embedded_platform/unixtron/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/unixtron.dir/src/core/process/Process.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/unixtron.dir/src/core/process/Process.cpp.o -MF CMakeFiles/unixtron.dir/src/core/process/Process.cpp.o.d -o CMakeFiles/unixtron.dir/src/core/process/Process.cpp.o -c /home/nandha/Projects/personalproj/unified_embedded_platform/unixtron/src/core/process/Process.cpp
+
+CMakeFiles/unixtron.dir/src/core/process/Process.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/unixtron.dir/src/core/process/Process.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nandha/Projects/personalproj/unified_embedded_platform/unixtron/src/core/process/Process.cpp > CMakeFiles/unixtron.dir/src/core/process/Process.cpp.i
+
+CMakeFiles/unixtron.dir/src/core/process/Process.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/unixtron.dir/src/core/process/Process.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nandha/Projects/personalproj/unified_embedded_platform/unixtron/src/core/process/Process.cpp -o CMakeFiles/unixtron.dir/src/core/process/Process.cpp.s
+
+CMakeFiles/unixtron.dir/src/core/project/ProjectGenerator.cpp.o: CMakeFiles/unixtron.dir/flags.make
+CMakeFiles/unixtron.dir/src/core/project/ProjectGenerator.cpp.o: /home/nandha/Projects/personalproj/unified_embedded_platform/unixtron/src/core/project/ProjectGenerator.cpp
+CMakeFiles/unixtron.dir/src/core/project/ProjectGenerator.cpp.o: CMakeFiles/unixtron.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/nandha/Projects/personalproj/unified_embedded_platform/unixtron/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/unixtron.dir/src/core/project/ProjectGenerator.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/unixtron.dir/src/core/project/ProjectGenerator.cpp.o -MF CMakeFiles/unixtron.dir/src/core/project/ProjectGenerator.cpp.o.d -o CMakeFiles/unixtron.dir/src/core/project/ProjectGenerator.cpp.o -c /home/nandha/Projects/personalproj/unified_embedded_platform/unixtron/src/core/project/ProjectGenerator.cpp
+
+CMakeFiles/unixtron.dir/src/core/project/ProjectGenerator.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/unixtron.dir/src/core/project/ProjectGenerator.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nandha/Projects/personalproj/unified_embedded_platform/unixtron/src/core/project/ProjectGenerator.cpp > CMakeFiles/unixtron.dir/src/core/project/ProjectGenerator.cpp.i
+
+CMakeFiles/unixtron.dir/src/core/project/ProjectGenerator.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/unixtron.dir/src/core/project/ProjectGenerator.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nandha/Projects/personalproj/unified_embedded_platform/unixtron/src/core/project/ProjectGenerator.cpp -o CMakeFiles/unixtron.dir/src/core/project/ProjectGenerator.cpp.s
+
+CMakeFiles/unixtron.dir/src/core/flash/flash.cpp.o: CMakeFiles/unixtron.dir/flags.make
+CMakeFiles/unixtron.dir/src/core/flash/flash.cpp.o: /home/nandha/Projects/personalproj/unified_embedded_platform/unixtron/src/core/flash/flash.cpp
+CMakeFiles/unixtron.dir/src/core/flash/flash.cpp.o: CMakeFiles/unixtron.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/nandha/Projects/personalproj/unified_embedded_platform/unixtron/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/unixtron.dir/src/core/flash/flash.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/unixtron.dir/src/core/flash/flash.cpp.o -MF CMakeFiles/unixtron.dir/src/core/flash/flash.cpp.o.d -o CMakeFiles/unixtron.dir/src/core/flash/flash.cpp.o -c /home/nandha/Projects/personalproj/unified_embedded_platform/unixtron/src/core/flash/flash.cpp
+
+CMakeFiles/unixtron.dir/src/core/flash/flash.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/unixtron.dir/src/core/flash/flash.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nandha/Projects/personalproj/unified_embedded_platform/unixtron/src/core/flash/flash.cpp > CMakeFiles/unixtron.dir/src/core/flash/flash.cpp.i
+
+CMakeFiles/unixtron.dir/src/core/flash/flash.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/unixtron.dir/src/core/flash/flash.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nandha/Projects/personalproj/unified_embedded_platform/unixtron/src/core/flash/flash.cpp -o CMakeFiles/unixtron.dir/src/core/flash/flash.cpp.s
 
 # Object files for target unixtron
 unixtron_OBJECTS = \
-"CMakeFiles/unixtron.dir/src/main.cpp.o"
+"CMakeFiles/unixtron.dir/src/main.cpp.o" \
+"CMakeFiles/unixtron.dir/src/cli/command_registry.cpp.o" \
+"CMakeFiles/unixtron.dir/src/commands/build_command.cpp.o" \
+"CMakeFiles/unixtron.dir/src/commands/flasher_command.cpp.o" \
+"CMakeFiles/unixtron.dir/src/commands/help_command.cpp.o" \
+"CMakeFiles/unixtron.dir/src/commands/init_command.cpp.o" \
+"CMakeFiles/unixtron.dir/src/commands/run_command.cpp.o" \
+"CMakeFiles/unixtron.dir/src/commands/version_command.cpp.o" \
+"CMakeFiles/unixtron.dir/src/core/build/Builder.cpp.o" \
+"CMakeFiles/unixtron.dir/src/core/config/config.cpp.o" \
+"CMakeFiles/unixtron.dir/src/core/process/Process.cpp.o" \
+"CMakeFiles/unixtron.dir/src/core/project/ProjectGenerator.cpp.o" \
+"CMakeFiles/unixtron.dir/src/core/flash/flash.cpp.o"
 
 # External object files for target unixtron
 unixtron_EXTERNAL_OBJECTS =
 
 unixtron: CMakeFiles/unixtron.dir/src/main.cpp.o
+unixtron: CMakeFiles/unixtron.dir/src/cli/command_registry.cpp.o
+unixtron: CMakeFiles/unixtron.dir/src/commands/build_command.cpp.o
+unixtron: CMakeFiles/unixtron.dir/src/commands/flasher_command.cpp.o
+unixtron: CMakeFiles/unixtron.dir/src/commands/help_command.cpp.o
+unixtron: CMakeFiles/unixtron.dir/src/commands/init_command.cpp.o
+unixtron: CMakeFiles/unixtron.dir/src/commands/run_command.cpp.o
+unixtron: CMakeFiles/unixtron.dir/src/commands/version_command.cpp.o
+unixtron: CMakeFiles/unixtron.dir/src/core/build/Builder.cpp.o
+unixtron: CMakeFiles/unixtron.dir/src/core/config/config.cpp.o
+unixtron: CMakeFiles/unixtron.dir/src/core/process/Process.cpp.o
+unixtron: CMakeFiles/unixtron.dir/src/core/project/ProjectGenerator.cpp.o
+unixtron: CMakeFiles/unixtron.dir/src/core/flash/flash.cpp.o
 unixtron: CMakeFiles/unixtron.dir/build.make
 unixtron: CMakeFiles/unixtron.dir/compiler_depend.ts
 unixtron: CMakeFiles/unixtron.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/nandha/Projects/personalproj/unified_embedded_platform/unified_embedded_platform/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable unixtron"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/nandha/Projects/personalproj/unified_embedded_platform/unixtron/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Linking CXX executable unixtron"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/unixtron.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -109,6 +301,6 @@ CMakeFiles/unixtron.dir/clean:
 .PHONY : CMakeFiles/unixtron.dir/clean
 
 CMakeFiles/unixtron.dir/depend:
-	cd /home/nandha/Projects/personalproj/unified_embedded_platform/unified_embedded_platform/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/nandha/Projects/personalproj/unified_embedded_platform/unified_embedded_platform /home/nandha/Projects/personalproj/unified_embedded_platform/unified_embedded_platform /home/nandha/Projects/personalproj/unified_embedded_platform/unified_embedded_platform/build /home/nandha/Projects/personalproj/unified_embedded_platform/unified_embedded_platform/build /home/nandha/Projects/personalproj/unified_embedded_platform/unified_embedded_platform/build/CMakeFiles/unixtron.dir/DependInfo.cmake "--color=$(COLOR)" unixtron
+	cd /home/nandha/Projects/personalproj/unified_embedded_platform/unixtron/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/nandha/Projects/personalproj/unified_embedded_platform/unixtron /home/nandha/Projects/personalproj/unified_embedded_platform/unixtron /home/nandha/Projects/personalproj/unified_embedded_platform/unixtron/build /home/nandha/Projects/personalproj/unified_embedded_platform/unixtron/build /home/nandha/Projects/personalproj/unified_embedded_platform/unixtron/build/CMakeFiles/unixtron.dir/DependInfo.cmake "--color=$(COLOR)" unixtron
 .PHONY : CMakeFiles/unixtron.dir/depend
 

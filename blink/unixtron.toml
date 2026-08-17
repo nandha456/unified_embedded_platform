@@ -1,0 +1,5 @@
+name = "blink"
+board = "stm32f401cc"
+toolchain = "arm-none-eabi-gcc"
+flasher = "stlink"
+optimization = "Debug"

@@ -54,10 +54,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/nandha/Projects/personalproj/unified_embedded_platform/unified_embedded_platform
+CMAKE_SOURCE_DIR = /home/nandha/Projects/personalproj/unified_embedded_platform/unixtron
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/nandha/Projects/personalproj/unified_embedded_platform/unified_embedded_platform/build
+CMAKE_BINARY_DIR = /home/nandha/Projects/personalproj/unified_embedded_platform/unixtron/build
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -85,14 +85,14 @@ clean: CMakeFiles/unixtron.dir/clean
 CMakeFiles/unixtron.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/unixtron.dir/build.make CMakeFiles/unixtron.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/unixtron.dir/build.make CMakeFiles/unixtron.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/nandha/Projects/personalproj/unified_embedded_platform/unified_embedded_platform/build/CMakeFiles --progress-num=1,2 "Built target unixtron"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/nandha/Projects/personalproj/unified_embedded_platform/unixtron/build/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11,12,13,14 "Built target unixtron"
 .PHONY : CMakeFiles/unixtron.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/unixtron.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/nandha/Projects/personalproj/unified_embedded_platform/unified_embedded_platform/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/nandha/Projects/personalproj/unified_embedded_platform/unixtron/build/CMakeFiles 14
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/unixtron.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/nandha/Projects/personalproj/unified_embedded_platform/unified_embedded_platform/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/nandha/Projects/personalproj/unified_embedded_platform/unixtron/build/CMakeFiles 0
 .PHONY : CMakeFiles/unixtron.dir/rule
 
 # Convenience name for target.
@@ -102,7 +102,7 @@ unixtron: CMakeFiles/unixtron.dir/rule
 # codegen rule for target.
 CMakeFiles/unixtron.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/unixtron.dir/build.make CMakeFiles/unixtron.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/nandha/Projects/personalproj/unified_embedded_platform/unified_embedded_platform/build/CMakeFiles --progress-num=1,2 "Finished codegen for target unixtron"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/nandha/Projects/personalproj/unified_embedded_platform/unixtron/build/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11,12,13,14 "Finished codegen for target unixtron"
 .PHONY : CMakeFiles/unixtron.dir/codegen
 
 # clean rule for target.

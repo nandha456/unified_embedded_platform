@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/nandha/Projects/personalproj/unified_embedded_platform/unified_embedded_platform
+CMAKE_SOURCE_DIR = /home/nandha/Projects/personalproj/unified_embedded_platform/unixtron
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/nandha/Projects/personalproj/unified_embedded_platform/unified_embedded_platform/build
+CMAKE_BINARY_DIR = /home/nandha/Projects/personalproj/unified_embedded_platform/unixtron/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,9 +87,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/nandha/Projects/personalproj/unified_embedded_platform/unified_embedded_platform/build/CMakeFiles /home/nandha/Projects/personalproj/unified_embedded_platform/unified_embedded_platform/build//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/nandha/Projects/personalproj/unified_embedded_platform/unixtron/build/CMakeFiles /home/nandha/Projects/personalproj/unified_embedded_platform/unixtron/build//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/nandha/Projects/personalproj/unified_embedded_platform/unified_embedded_platform/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/nandha/Projects/personalproj/unified_embedded_platform/unixtron/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -129,6 +129,294 @@ unixtron/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/unixtron.dir/build.make CMakeFiles/unixtron.dir/build
 .PHONY : unixtron/fast
 
+src/cli/command_registry.o: src/cli/command_registry.cpp.o
+.PHONY : src/cli/command_registry.o
+
+# target to build an object file
+src/cli/command_registry.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/unixtron.dir/build.make CMakeFiles/unixtron.dir/src/cli/command_registry.cpp.o
+.PHONY : src/cli/command_registry.cpp.o
+
+src/cli/command_registry.i: src/cli/command_registry.cpp.i
+.PHONY : src/cli/command_registry.i
+
+# target to preprocess a source file
+src/cli/command_registry.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/unixtron.dir/build.make CMakeFiles/unixtron.dir/src/cli/command_registry.cpp.i
+.PHONY : src/cli/command_registry.cpp.i
+
+src/cli/command_registry.s: src/cli/command_registry.cpp.s
+.PHONY : src/cli/command_registry.s
+
+# target to generate assembly for a file
+src/cli/command_registry.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/unixtron.dir/build.make CMakeFiles/unixtron.dir/src/cli/command_registry.cpp.s
+.PHONY : src/cli/command_registry.cpp.s
+
+src/commands/build_command.o: src/commands/build_command.cpp.o
+.PHONY : src/commands/build_command.o
+
+# target to build an object file
+src/commands/build_command.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/unixtron.dir/build.make CMakeFiles/unixtron.dir/src/commands/build_command.cpp.o
+.PHONY : src/commands/build_command.cpp.o
+
+src/commands/build_command.i: src/commands/build_command.cpp.i
+.PHONY : src/commands/build_command.i
+
+# target to preprocess a source file
+src/commands/build_command.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/unixtron.dir/build.make CMakeFiles/unixtron.dir/src/commands/build_command.cpp.i
+.PHONY : src/commands/build_command.cpp.i
+
+src/commands/build_command.s: src/commands/build_command.cpp.s
+.PHONY : src/commands/build_command.s
+
+# target to generate assembly for a file
+src/commands/build_command.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/unixtron.dir/build.make CMakeFiles/unixtron.dir/src/commands/build_command.cpp.s
+.PHONY : src/commands/build_command.cpp.s
+
+src/commands/flasher_command.o: src/commands/flasher_command.cpp.o
+.PHONY : src/commands/flasher_command.o
+
+# target to build an object file
+src/commands/flasher_command.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/unixtron.dir/build.make CMakeFiles/unixtron.dir/src/commands/flasher_command.cpp.o
+.PHONY : src/commands/flasher_command.cpp.o
+
+src/commands/flasher_command.i: src/commands/flasher_command.cpp.i
+.PHONY : src/commands/flasher_command.i
+
+# target to preprocess a source file
+src/commands/flasher_command.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/unixtron.dir/build.make CMakeFiles/unixtron.dir/src/commands/flasher_command.cpp.i
+.PHONY : src/commands/flasher_command.cpp.i
+
+src/commands/flasher_command.s: src/commands/flasher_command.cpp.s
+.PHONY : src/commands/flasher_command.s
+
+# target to generate assembly for a file
+src/commands/flasher_command.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/unixtron.dir/build.make CMakeFiles/unixtron.dir/src/commands/flasher_command.cpp.s
+.PHONY : src/commands/flasher_command.cpp.s
+
+src/commands/help_command.o: src/commands/help_command.cpp.o
+.PHONY : src/commands/help_command.o
+
+# target to build an object file
+src/commands/help_command.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/unixtron.dir/build.make CMakeFiles/unixtron.dir/src/commands/help_command.cpp.o
+.PHONY : src/commands/help_command.cpp.o
+
+src/commands/help_command.i: src/commands/help_command.cpp.i
+.PHONY : src/commands/help_command.i
+
+# target to preprocess a source file
+src/commands/help_command.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/unixtron.dir/build.make CMakeFiles/unixtron.dir/src/commands/help_command.cpp.i
+.PHONY : src/commands/help_command.cpp.i
+
+src/commands/help_command.s: src/commands/help_command.cpp.s
+.PHONY : src/commands/help_command.s
+
+# target to generate assembly for a file
+src/commands/help_command.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/unixtron.dir/build.make CMakeFiles/unixtron.dir/src/commands/help_command.cpp.s
+.PHONY : src/commands/help_command.cpp.s
+
+src/commands/init_command.o: src/commands/init_command.cpp.o
+.PHONY : src/commands/init_command.o
+
+# target to build an object file
+src/commands/init_command.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/unixtron.dir/build.make CMakeFiles/unixtron.dir/src/commands/init_command.cpp.o
+.PHONY : src/commands/init_command.cpp.o
+
+src/commands/init_command.i: src/commands/init_command.cpp.i
+.PHONY : src/commands/init_command.i
+
+# target to preprocess a source file
+src/commands/init_command.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/unixtron.dir/build.make CMakeFiles/unixtron.dir/src/commands/init_command.cpp.i
+.PHONY : src/commands/init_command.cpp.i
+
+src/commands/init_command.s: src/commands/init_command.cpp.s
+.PHONY : src/commands/init_command.s
+
+# target to generate assembly for a file
+src/commands/init_command.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/unixtron.dir/build.make CMakeFiles/unixtron.dir/src/commands/init_command.cpp.s
+.PHONY : src/commands/init_command.cpp.s
+
+src/commands/run_command.o: src/commands/run_command.cpp.o
+.PHONY : src/commands/run_command.o
+
+# target to build an object file
+src/commands/run_command.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/unixtron.dir/build.make CMakeFiles/unixtron.dir/src/commands/run_command.cpp.o
+.PHONY : src/commands/run_command.cpp.o
+
+src/commands/run_command.i: src/commands/run_command.cpp.i
+.PHONY : src/commands/run_command.i
+
+# target to preprocess a source file
+src/commands/run_command.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/unixtron.dir/build.make CMakeFiles/unixtron.dir/src/commands/run_command.cpp.i
+.PHONY : src/commands/run_command.cpp.i
+
+src/commands/run_command.s: src/commands/run_command.cpp.s
+.PHONY : src/commands/run_command.s
+
+# target to generate assembly for a file
+src/commands/run_command.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/unixtron.dir/build.make CMakeFiles/unixtron.dir/src/commands/run_command.cpp.s
+.PHONY : src/commands/run_command.cpp.s
+
+src/commands/version_command.o: src/commands/version_command.cpp.o
+.PHONY : src/commands/version_command.o
+
+# target to build an object file
+src/commands/version_command.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/unixtron.dir/build.make CMakeFiles/unixtron.dir/src/commands/version_command.cpp.o
+.PHONY : src/commands/version_command.cpp.o
+
+src/commands/version_command.i: src/commands/version_command.cpp.i
+.PHONY : src/commands/version_command.i
+
+# target to preprocess a source file
+src/commands/version_command.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/unixtron.dir/build.make CMakeFiles/unixtron.dir/src/commands/version_command.cpp.i
+.PHONY : src/commands/version_command.cpp.i
+
+src/commands/version_command.s: src/commands/version_command.cpp.s
+.PHONY : src/commands/version_command.s
+
+# target to generate assembly for a file
+src/commands/version_command.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/unixtron.dir/build.make CMakeFiles/unixtron.dir/src/commands/version_command.cpp.s
+.PHONY : src/commands/version_command.cpp.s
+
+src/core/build/Builder.o: src/core/build/Builder.cpp.o
+.PHONY : src/core/build/Builder.o
+
+# target to build an object file
+src/core/build/Builder.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/unixtron.dir/build.make CMakeFiles/unixtron.dir/src/core/build/Builder.cpp.o
+.PHONY : src/core/build/Builder.cpp.o
+
+src/core/build/Builder.i: src/core/build/Builder.cpp.i
+.PHONY : src/core/build/Builder.i
+
+# target to preprocess a source file
+src/core/build/Builder.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/unixtron.dir/build.make CMakeFiles/unixtron.dir/src/core/build/Builder.cpp.i
+.PHONY : src/core/build/Builder.cpp.i
+
+src/core/build/Builder.s: src/core/build/Builder.cpp.s
+.PHONY : src/core/build/Builder.s
+
+# target to generate assembly for a file
+src/core/build/Builder.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/unixtron.dir/build.make CMakeFiles/unixtron.dir/src/core/build/Builder.cpp.s
+.PHONY : src/core/build/Builder.cpp.s
+
+src/core/config/config.o: src/core/config/config.cpp.o
+.PHONY : src/core/config/config.o
+
+# target to build an object file
+src/core/config/config.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/unixtron.dir/build.make CMakeFiles/unixtron.dir/src/core/config/config.cpp.o
+.PHONY : src/core/config/config.cpp.o
+
+src/core/config/config.i: src/core/config/config.cpp.i
+.PHONY : src/core/config/config.i
+
+# target to preprocess a source file
+src/core/config/config.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/unixtron.dir/build.make CMakeFiles/unixtron.dir/src/core/config/config.cpp.i
+.PHONY : src/core/config/config.cpp.i
+
+src/core/config/config.s: src/core/config/config.cpp.s
+.PHONY : src/core/config/config.s
+
+# target to generate assembly for a file
+src/core/config/config.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/unixtron.dir/build.make CMakeFiles/unixtron.dir/src/core/config/config.cpp.s
+.PHONY : src/core/config/config.cpp.s
+
+src/core/flash/flash.o: src/core/flash/flash.cpp.o
+.PHONY : src/core/flash/flash.o
+
+# target to build an object file
+src/core/flash/flash.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/unixtron.dir/build.make CMakeFiles/unixtron.dir/src/core/flash/flash.cpp.o
+.PHONY : src/core/flash/flash.cpp.o
+
+src/core/flash/flash.i: src/core/flash/flash.cpp.i
+.PHONY : src/core/flash/flash.i
+
+# target to preprocess a source file
+src/core/flash/flash.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/unixtron.dir/build.make CMakeFiles/unixtron.dir/src/core/flash/flash.cpp.i
+.PHONY : src/core/flash/flash.cpp.i
+
+src/core/flash/flash.s: src/core/flash/flash.cpp.s
+.PHONY : src/core/flash/flash.s
+
+# target to generate assembly for a file
+src/core/flash/flash.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/unixtron.dir/build.make CMakeFiles/unixtron.dir/src/core/flash/flash.cpp.s
+.PHONY : src/core/flash/flash.cpp.s
+
+src/core/process/Process.o: src/core/process/Process.cpp.o
+.PHONY : src/core/process/Process.o
+
+# target to build an object file
+src/core/process/Process.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/unixtron.dir/build.make CMakeFiles/unixtron.dir/src/core/process/Process.cpp.o
+.PHONY : src/core/process/Process.cpp.o
+
+src/core/process/Process.i: src/core/process/Process.cpp.i
+.PHONY : src/core/process/Process.i
+
+# target to preprocess a source file
+src/core/process/Process.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/unixtron.dir/build.make CMakeFiles/unixtron.dir/src/core/process/Process.cpp.i
+.PHONY : src/core/process/Process.cpp.i
+
+src/core/process/Process.s: src/core/process/Process.cpp.s
+.PHONY : src/core/process/Process.s
+
+# target to generate assembly for a file
+src/core/process/Process.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/unixtron.dir/build.make CMakeFiles/unixtron.dir/src/core/process/Process.cpp.s
+.PHONY : src/core/process/Process.cpp.s
+
+src/core/project/ProjectGenerator.o: src/core/project/ProjectGenerator.cpp.o
+.PHONY : src/core/project/ProjectGenerator.o
+
+# target to build an object file
+src/core/project/ProjectGenerator.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/unixtron.dir/build.make CMakeFiles/unixtron.dir/src/core/project/ProjectGenerator.cpp.o
+.PHONY : src/core/project/ProjectGenerator.cpp.o
+
+src/core/project/ProjectGenerator.i: src/core/project/ProjectGenerator.cpp.i
+.PHONY : src/core/project/ProjectGenerator.i
+
+# target to preprocess a source file
+src/core/project/ProjectGenerator.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/unixtron.dir/build.make CMakeFiles/unixtron.dir/src/core/project/ProjectGenerator.cpp.i
+.PHONY : src/core/project/ProjectGenerator.cpp.i
+
+src/core/project/ProjectGenerator.s: src/core/project/ProjectGenerator.cpp.s
+.PHONY : src/core/project/ProjectGenerator.s
+
+# target to generate assembly for a file
+src/core/project/ProjectGenerator.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/unixtron.dir/build.make CMakeFiles/unixtron.dir/src/core/project/ProjectGenerator.cpp.s
+.PHONY : src/core/project/ProjectGenerator.cpp.s
+
 src/main.o: src/main.cpp.o
 .PHONY : src/main.o
 
@@ -162,6 +450,42 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... unixtron"
+	@echo "... src/cli/command_registry.o"
+	@echo "... src/cli/command_registry.i"
+	@echo "... src/cli/command_registry.s"
+	@echo "... src/commands/build_command.o"
+	@echo "... src/commands/build_command.i"
+	@echo "... src/commands/build_command.s"
+	@echo "... src/commands/flasher_command.o"
+	@echo "... src/commands/flasher_command.i"
+	@echo "... src/commands/flasher_command.s"
+	@echo "... src/commands/help_command.o"
+	@echo "... src/commands/help_command.i"
+	@echo "... src/commands/help_command.s"
+	@echo "... src/commands/init_command.o"
+	@echo "... src/commands/init_command.i"
+	@echo "... src/commands/init_command.s"
+	@echo "... src/commands/run_command.o"
+	@echo "... src/commands/run_command.i"
+	@echo "... src/commands/run_command.s"
+	@echo "... src/commands/version_command.o"
+	@echo "... src/commands/version_command.i"
+	@echo "... src/commands/version_command.s"
+	@echo "... src/core/build/Builder.o"
+	@echo "... src/core/build/Builder.i"
+	@echo "... src/core/build/Builder.s"
+	@echo "... src/core/config/config.o"
+	@echo "... src/core/config/config.i"
+	@echo "... src/core/config/config.s"
+	@echo "... src/core/flash/flash.o"
+	@echo "... src/core/flash/flash.i"
+	@echo "... src/core/flash/flash.s"
+	@echo "... src/core/process/Process.o"
+	@echo "... src/core/process/Process.i"
+	@echo "... src/core/process/Process.s"
+	@echo "... src/core/project/ProjectGenerator.o"
+	@echo "... src/core/project/ProjectGenerator.i"
+	@echo "... src/core/project/ProjectGenerator.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
