@@ -111,7 +111,7 @@ dfu-util --version
 Clone the repository:
 
 ```bash
-git clone <YOUR_REPOSITORY_URL>
+(https://github.com/nandha456/unified_embedded_platform)
 ```
 
 Enter the project directory:
