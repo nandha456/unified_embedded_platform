@@ -15,7 +15,7 @@ unixtron: \
   CMakeFiles/unixtron.dir/src/core/process/Process.cpp.o \
   CMakeFiles/unixtron.dir/src/core/project/ProjectGenerator.cpp.o \
   CMakeFiles/unixtron.dir/src/core/flash/flash.cpp.o \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/16/libstdc++.a \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/16/libstdc++.so \
   /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/libm.so \
   /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/libm.so \
   /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/libm.so \
@@ -30,7 +30,7 @@ unixtron: \
   /usr/lib/gcc/x86_64-pc-linux-gnu/16/libatomic_asneeded.so \
   /usr/lib/gcc/x86_64-pc-linux-gnu/16/libatomic_asneeded.so \
   /usr/lib/gcc/x86_64-pc-linux-gnu/16/libatomic_asneeded.so \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/16/libatomic.a \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/16/libatomic.so \
   /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/libc.so \
   /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/libc.so \
   /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/libc.so \
@@ -44,7 +44,8 @@ unixtron: \
   /usr/lib/gcc/x86_64-pc-linux-gnu/16/libgcc.a \
   /usr/lib/gcc/x86_64-pc-linux-gnu/16/libgcc.a \
   /usr/lib/gcc/x86_64-pc-linux-gnu/16/crtendS.o \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/crtn.o
+  /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/crtn.o \
+  /usr/lib/ld-linux-x86-64.so.2
 
 /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/Scrt1.o:
 
@@ -78,7 +79,7 @@ CMakeFiles/unixtron.dir/src/core/project/ProjectGenerator.cpp.o:
 
 CMakeFiles/unixtron.dir/src/core/flash/flash.cpp.o:
 
-/usr/lib/gcc/x86_64-pc-linux-gnu/16/libstdc++.a:
+/usr/lib/gcc/x86_64-pc-linux-gnu/16/libstdc++.so:
 
 /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/libm.so:
 
@@ -108,7 +109,7 @@ CMakeFiles/unixtron.dir/src/core/flash/flash.cpp.o:
 
 /usr/lib/gcc/x86_64-pc-linux-gnu/16/libatomic_asneeded.so:
 
-/usr/lib/gcc/x86_64-pc-linux-gnu/16/libatomic.a:
+/usr/lib/gcc/x86_64-pc-linux-gnu/16/libatomic.so:
 
 /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/libc.so:
 
@@ -137,3 +138,5 @@ CMakeFiles/unixtron.dir/src/core/flash/flash.cpp.o:
 /usr/lib/gcc/x86_64-pc-linux-gnu/16/crtendS.o:
 
 /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/crtn.o:
+
+/usr/lib/ld-linux-x86-64.so.2:

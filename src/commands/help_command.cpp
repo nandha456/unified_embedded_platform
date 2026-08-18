@@ -9,7 +9,9 @@ int HelpCommand::execute()
         << "init\n"
         << "version\n"
         << "help\n"
-        << "build";
+        << "build\n"
+        << "flash\n"
+        << "run\n";
 
     return 0;
 }

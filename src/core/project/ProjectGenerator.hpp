@@ -16,4 +16,6 @@ private:
     void generateToml(const std::string& projectPath, const std::string& name);
     void generateMainC(const std::string& projectPath);
     void generateCMakeLists(const std::string& projectPath);
+    void generateStartupC(const std::string& projectPath);
+    void generateLinkerScript(const std::string& projectPath);
 };

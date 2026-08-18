@@ -7,6 +7,7 @@
 #include "commands/version_command.hpp"
 #include "commands/build_command.hpp"
 #include "commands/flasher_command.hpp"
+#include "commands/run_command.hpp"
 
 int main(int argc, char* argv[])
 {
@@ -47,6 +48,14 @@ int main(int argc, char* argv[])
             return std::make_unique<FlasherCommand>();
         });
 
+    registry.registerCommand(
+        "run",
+        []()
+        {
+            return std::make_unique<RunCommand>();
+        }); 
+    
+        
     if (argc < 2)
     {
         registry.execute("help");

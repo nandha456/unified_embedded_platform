@@ -1,40 +1,30 @@
 #include "flash.hpp"
 
-#include "../config/config.hpp"
 #include "../process/Process.hpp"
 
 #include <iostream>
+#include <vector>
+#include <string>
 
 bool Flasher::flash()
 {
-    auto config = Config::load("unixtron.toml");
-
     std::cout << "=== UnixTron Flash ===\n";
-    std::cout << "Board : " << config.board << "\n\n";
 
-    auto result = Process::run(
-        "STM32_Programmer_CLI",
-        {
-            "-c",
-            "port=SWD",
-            "-w",
-            "build/firmware.bin",
-            "0x08000000",
-            "-v",
-            "-rst"
-        }
-    );
+    std::vector<std::string> args = {
+        "-a", "0",
+        "-s", "0x08000000:leave",
+        "-D", "build/firmware.bin"
+    };
 
-    std::cout << result.standardOutput;
+    auto result = Process::run("dfu-util", args);
 
     if (result.exitCode != 0)
     {
-        std::cerr << result.standardError;
-        std::cerr << "\nFlash failed.\n";
+        std::cerr << "      FAILED\n";
+        std::cerr << result.standardOutput;
         return false;
     }
 
-    std::cout << "\nFlash successful.\n";
-
+    std::cout << "      Flash successful\n";
     return true;
 }

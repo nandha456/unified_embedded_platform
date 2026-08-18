@@ -73,7 +73,7 @@ bool Builder::build()
         {
             "-mcpu=cortex-m4",
             "-mthumb",
-            "-TSTM32F401CC_FLASH.ld",
+            "-Tsrc/Linker.ld",
             "-nostdlib",
             "build/startup.o",
             "build/main.o",

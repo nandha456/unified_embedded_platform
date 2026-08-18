@@ -1622,7 +1622,6 @@ CMakeFiles/unixtron.dir/src/core/config/config.cpp.o: /home/nandha/Projects/pers
   /usr/lib/gcc/x86_64-pc-linux-gnu/16/include/stddef.h
 
 CMakeFiles/unixtron.dir/src/core/flash/flash.cpp.o: /home/nandha/Projects/personalproj/unified_embedded_platform/unixtron/src/core/flash/flash.cpp \
-  /home/nandha/Projects/personalproj/unified_embedded_platform/unixtron/src/core/config/config.hpp \
   /home/nandha/Projects/personalproj/unified_embedded_platform/unixtron/src/core/process/Process.hpp \
   /home/nandha/Projects/personalproj/unified_embedded_platform/unixtron/src/core/flash/flash.hpp \
   /usr/include/alloca.h \
@@ -2624,11 +2623,11 @@ unixtron: /usr/lib/Scrt1.o \
   /usr/lib/libm.so \
   /usr/lib/gcc/x86_64-pc-linux-gnu/16/crtbeginS.o \
   /usr/lib/gcc/x86_64-pc-linux-gnu/16/crtendS.o \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/16/libatomic.a \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/16/libatomic.so \
   /usr/lib/gcc/x86_64-pc-linux-gnu/16/libatomic_asneeded.so \
   /usr/lib/gcc/x86_64-pc-linux-gnu/16/libgcc.a \
   /usr/lib/gcc/x86_64-pc-linux-gnu/16/libgcc_s.so \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/16/libstdc++.a \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/16/libstdc++.so \
   /usr/lib/ld-linux-x86-64.so.2 \
   /usr/lib/libc.so.6 \
   /usr/lib/libc_nonshared.a \
@@ -2669,13 +2668,13 @@ CMakeFiles/unixtron.dir/src/cli/command_registry.cpp.o:
 
 /usr/lib/ld-linux-x86-64.so.2:
 
-/usr/lib/gcc/x86_64-pc-linux-gnu/16/libstdc++.a:
+/usr/lib/gcc/x86_64-pc-linux-gnu/16/libstdc++.so:
 
 /usr/lib/gcc/x86_64-pc-linux-gnu/16/libgcc_s.so:
 
 /usr/lib/gcc/x86_64-pc-linux-gnu/16/libgcc.a:
 
-/usr/lib/gcc/x86_64-pc-linux-gnu/16/libatomic.a:
+/usr/lib/gcc/x86_64-pc-linux-gnu/16/libatomic.so:
 
 /usr/lib/libm.so:
 

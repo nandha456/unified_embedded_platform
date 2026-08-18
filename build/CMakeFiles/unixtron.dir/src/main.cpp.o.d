@@ -178,4 +178,5 @@ CMakeFiles/unixtron.dir/src/main.cpp.o: \
  /home/nandha/Projects/personalproj/unified_embedded_platform/unixtron/src/commands/init_command.hpp \
  /home/nandha/Projects/personalproj/unified_embedded_platform/unixtron/src/commands/version_command.hpp \
  /home/nandha/Projects/personalproj/unified_embedded_platform/unixtron/src/commands/build_command.hpp \
- /home/nandha/Projects/personalproj/unified_embedded_platform/unixtron/src/commands/flasher_command.hpp
+ /home/nandha/Projects/personalproj/unified_embedded_platform/unixtron/src/commands/flasher_command.hpp \
+ /home/nandha/Projects/personalproj/unified_embedded_platform/unixtron/src/commands/run_command.hpp
